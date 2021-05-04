@@ -20,6 +20,7 @@ This is the code repository for push notification application using Amazon SQS b
 ### Send the Notification to SQS queue
 ---
 Import the following curl snippet in your post man
+* API to send the data to SQS : http://localhost:8080/api/notification/sender
 ```
 curl --location --request POST 'http://localhost:8080/api/notification/sender' \
 --header 'Content-Type: application/json' \
