@@ -18,11 +18,11 @@ import com.amazonaws.services.sqs.AmazonSQSAsyncClientBuilder;
 public class SpringCloudSQSConfig {
 	
 	//These credentials will expire in a week
-	@Value("${cloud.aws.credentials.accesskey : AKIAZNW7YKAFSXXAJFDW}")
+	@Value("${cloud.aws.credentials.accesskey : AKIAZNW7YKAF2FHRYQHZ}")
 	private String accessKey;
 	
 	//These credentials will expire in a week
-	@Value("${cloud.aws.credentials.secretkey : LFK20vVMkmN2ynwV4YGhzUpDNAP9pKXTsK8NAyf1}")
+	@Value("${cloud.aws.credentials.secretkey : vsmZH0V6Tg7qQk3kXwUKX8MMMpiSsZJHOBq5fheM}")
 	private String secretKey;
 
 	@Bean
